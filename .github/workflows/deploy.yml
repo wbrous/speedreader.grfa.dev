@@ -51,6 +51,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deploy
         uses: actions/deploy-pages@v4
-```
-
-Now let me update the `vite.config.js` and add the `CNAME` file in parallel:
